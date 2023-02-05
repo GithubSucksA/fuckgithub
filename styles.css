@@ -130,5 +130,6 @@
         text-decoration: none;
         color: black;
         position: absolute;
+        top: 10px
       }
     }
