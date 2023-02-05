@@ -129,6 +129,6 @@
         /* link styles go here, e.g.: */  
         text-decoration: none;
         color: black;
-        margin-left: -10px;
+        position: absolute;
       }
     }
