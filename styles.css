@@ -1,0 +1,44 @@
+@media only screen and (max-width: 768px){
+    header {
+        background-color: rgb(223, 117, 107);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        height: 20vh;
+    }
+    header h1 {
+        margin-bottom: -1vh;
+    }
+    nav {
+        background-color: rgb(178, 68, 58);
+        margin-top: -1.8vh;
+        padding-top: 1px;
+        border-bottom: yellow solid 1px;
+    }
+    ul {
+        list-style: none;
+        text-align: center;
+        position: relative;
+        right: 5%;
+    }
+    a {
+        color: white;
+        text-decoration: none;
+    }
+    li {
+        padding-bottom: .5rem;
+    }
+    .left-container {
+        background-color: rgb(235, 188, 45);
+        margin-top: -2.2vh;
+    }
+    .left-container * {
+        padding: 0 10px;
+    }
+    .pic {
+        width: 300px;
+        margin: 0 auto;
+    }
+}
