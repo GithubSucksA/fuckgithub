@@ -1,135 +1,198 @@
-@media only screen and (max-width: 768px){
-    header {
-        background-color: rgb(246, 90, 6);
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        color: white;
-        height: 20vh;
+header {
+    background-color: rgb(246, 90, 6);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    height: 20vh;
+}
+header h1 {
+    margin-bottom: -1vh;
+}
+nav {
+    background-color: rgb(185, 76, 16);
+    margin-top: -1.2vh;
+    margin-bottom: 1.2vh;
+    padding-top: 1px;
+    border-bottom: yellow solid 1px;
+}
+ul {
+    list-style: none;
+    text-align: center;
+    position: relative;
+    right: 5%;
+}
+a {
+    color: white;
+    text-decoration: none;
+}
+li {
+    padding-bottom: .5rem;
+}
+.left-container {
+    background-color: rgb(235, 184, 28);
+    margin-top: -2.2vh;
+    padding-bottom: 1rem;
+    padding-top: 1px;
+}
+.left-container * {
+    padding: 0 10px;
+}
+.pic {
+    display: block;
+    width: 375px;
+    margin: 0 auto;
+}
+.pic1 {
+    width: 150px;
+    height: auto;
+}
+.pic2 {
+    display: block;
+    margin: 0 auto;
+}
+#side {
+    margin-left: -.5rem;
+}
+.right-container {
+    padding: 0 10px;
+}
+.right-container h2 {
+    color:rgb(185, 76, 16);
+}
+footer {
+    background-color:rgb(185, 76, 16);
+    text-align: center;
+}
+footer p:first-of-type {
+    padding-top: 1.5rem;
+    margin-bottom: 0;
+}
+footer p:last-of-type {
+    padding-bottom: 1rem;
+    margin-top: 0;
+}
+#hannah {
+    float: right;
+    width: 150px;
+    height: 200px;
+    margin-left: 25px;
+}
+#jesse {
+    float: left;
+    width: 150px;
+    height: 200px;
+    margin-right: 25px;
+}
+.jesse {
+    position: relative;
+    top: 10px;
+}
+.artikel {
+    margin-top: 35px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid gray;
+}
+.tarief {
+    padding-bottom: 10px;
+    border-bottom: whitesmoke solid 2px;
+}
+#add-space {
+    margin-bottom: 75px;
+}
+input, select {
+    width: 100%;
+    background-color: white;
+    margin-bottom: .5rem;
+}
+input[type="submit"] {
+    width: 75px;
+    height: 35px;
+    background-color: rgb(185, 76, 16);
+    color: white;
+    font-weight: bold;
+    margin-top: 10px;
+}
+input[type="submit"]:hover {
+    opacity: .8;
+    transition: 500ms;
+}
+.contact {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding-left: 25px;
+}
+.phone a, .phone a:link, .phone a:visited, .phone a:hover, .phone a:active, .phone a:focus {
+    /* link styles go here, e.g.: */  
+    text-decoration: none;
+    color: black;
+    position: relative;
+    right: 10px;
     }
-    header h1 {
-        margin-bottom: -1vh;
-    }
-    nav {
-        background-color: rgb(185, 76, 16);
-        margin-top: -1.2vh;
-        margin-bottom: 1.2vh;
-        padding-top: 1px;
-        border-bottom: yellow solid 1px;
+
+@media only screen and (min-width: 720px){
+    .container {
+        display: grid;
+        grid-template-columns: 1fr 3fr;
     }
     ul {
-        list-style: none;
-        text-align: center;
-        position: relative;
-        right: 5%;
+        display: flex;
+        margin-left: 6.5%;
     }
-    a {
-        color: white;
-        text-decoration: none;
+    .navbar {
+        margin-left: 2rem;
     }
-    li {
-        padding-bottom: .5rem;
+    .navbar li {
+        margin-right: 2rem;
     }
     .left-container {
-        background-color: rgb(235, 184, 28);
-        margin-top: -2.2vh;
-        padding-bottom: 1rem;
-        padding-top: 1px;
-    }
-    .left-container * {
-        padding: 0 10px;
-    }
-    .pic {
-        display: block;
-        width: 375px;
-        margin: 0 auto;
-    }
-    .pic1 {
-        width: 150px;
-        height: auto;
-    }
-    .pic2 {
-        display: block;
-        margin: 0 auto;
-    }
-    #side {
-        margin-left: -.5rem;
+        margin-top: -1.3vh;
+        margin-bottom: -1rem;
     }
     .right-container {
-        padding: 0 10px;
-    }
-    .right-container h2 {
-        color:rgb(185, 76, 16);
-    }
-    footer {
-        background-color:rgb(185, 76, 16);
-        text-align: center;
-    }
-    footer p:first-of-type {
-        padding-top: 1.5rem;
-        margin-bottom: 0;
-    }
-    footer p:last-of-type {
-        padding-bottom: 1rem;
-        margin-top: 0;
-    }
-    #hannah {
-        float: right;
-        width: 150px;
-        height: 200px;
-        margin-left: 25px;
-    }
-    #jesse {
-        float: left;
-        width: 150px;
-        height: 200px;
-        margin-right: 25px;
-    }
-    .jesse {
-        position: relative;
-        top: 10px;
-    }
-    .artikel {
-        margin-top: 35px;
-        padding-bottom: 10px;
-        border-bottom: 2px solid gray;
-    }
-    .tarief {
-        padding-bottom: 10px;
-        border-bottom: whitesmoke solid 2px;
-    }
-    #add-space {
-        margin-bottom: 75px;
-    }
-    input, select {
-        width: 100%;
-        background-color: white;
-        margin-bottom: .5rem;
-    }
-    input[type="submit"] {
-        width: 75px;
-        height: 35px;
-        background-color: rgb(185, 76, 16);
-        color: white;
-        font-weight: bold;
-        margin-top: 10px;
-    }
-    input[type="submit"]:hover {
-        opacity: .8;
-        transition: 500ms;
-    }
-    .contact {
-        display: flex;
-        flex-direction: column;
-        align-items: start;
         padding-left: 25px;
     }
-    .phone a, .phone a:link, .phone a:visited, .phone a:hover, .phone a:active, .phone a:focus {
-        /* link styles go here, e.g.: */  
-        text-decoration: none;
-        color: black;
-        position: relative;
-        right: 10px;
-      }
+    .pic1 {
+        width: 300px;
+        height: auto;
+        margin-left: 20px;
     }
+    #hannah, #jesse {
+        width: 225px;
+        height: 300px;
+    }
+    .pic2 {
+        height: 225px;
+        width: 300px;
+    }
+    #kid {
+        height: 325px;
+        width: 85%;
+        display: block;
+        margin: 0 auto;
+    }
+    .contact {
+        padding-left: 0;
+    }
+}
+
+@media screen and (min-width: 1300px) {
+    .navbar {
+        margin-left: 4rem;
+    }
+    .pic2 {
+        width: 95%;
+        height: 275px;
+    }
+    .right-container {
+        margin-right: 30%;
+    }
+    #kid {
+        height: 450px;
+    }
+    textarea {
+        width: 100%;
+    }
+}
