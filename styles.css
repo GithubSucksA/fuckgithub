@@ -1,6 +1,6 @@
 @media only screen and (max-width: 768px){
     header {
-        background-color: rgb(223, 117, 107);
+        background-color: rgb(246, 90, 6);
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -12,8 +12,9 @@
         margin-bottom: -1vh;
     }
     nav {
-        background-color: rgb(178, 68, 58);
-        margin-top: -1.8vh;
+        background-color: rgb(185, 76, 16);
+        margin-top: -1.2vh;
+        margin-bottom: 1.2vh;
         padding-top: 1px;
         border-bottom: yellow solid 1px;
     }
@@ -48,6 +49,10 @@
         width: 150px;
         height: auto;
     }
+    .pic2 {
+        display: block;
+        margin: 0 auto;
+    }
     #side {
         margin-left: -.5rem;
     }
@@ -55,10 +60,10 @@
         padding: 0 10px;
     }
     .right-container h2 {
-        color:rgb(178, 68, 58);
+        color:rgb(185, 76, 16);
     }
     footer {
-        background-color:rgb(178, 68, 58);
+        background-color:rgb(185, 76, 16);
         text-align: center;
     }
     footer p:first-of-type {
@@ -105,7 +110,7 @@
     input[type="submit"] {
         width: 75px;
         height: 35px;
-        background-color: rgb(178, 68, 58);
+        background-color: rgb(185, 76, 16);
         color: white;
         font-weight: bold;
         margin-top: 10px;
