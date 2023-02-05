@@ -129,5 +129,7 @@
         /* link styles go here, e.g.: */  
         text-decoration: none;
         color: black;
+        position: relative;
+        right: 10px;
       }
     }
