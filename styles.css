@@ -128,6 +128,8 @@
     .phone a, .phone a:link, .phone a:visited, .phone a:hover, .phone a:active, .phone a:focus {
         /* link styles go here, e.g.: */  
         text-decoration: none;
+        list-style: none;
+        list-style-type: none;
         color: black;
         position: relative;
         right: 10px;
