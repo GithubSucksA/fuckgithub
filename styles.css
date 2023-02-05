@@ -125,7 +125,9 @@
         align-items: start;
         padding-left: 25px;
     }
-    #weird {
+    .phone a, .phone a:link, .phone a:visited, .phone a:hover, .phone a:active, .phone a:focus {
+        /* link styles go here, e.g.: */  
+        text-decoration: none;
         color: black;
+      }
     }
-}
