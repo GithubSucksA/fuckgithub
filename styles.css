@@ -125,4 +125,7 @@
         align-items: start;
         padding-left: 25px;
     }
+    #weird {
+        color: black;
+    }
 }
